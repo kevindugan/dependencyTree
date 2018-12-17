@@ -10,6 +10,7 @@ def test_walk_tree():
 
     a.dependsOn(b)
     a.dependsOn(d)
+    a.dependsOn(c)
     b.dependsOn(c)
     b.dependsOn(e)
     c.dependsOn(d)
